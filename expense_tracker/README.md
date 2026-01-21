@@ -1,16 +1,6 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Basic Zustand Store (Beginner) Create a Zustand store for a **Nigerian Naira Expense Tracker** with: **State:** - expenses - Array of expense objects { id, description, amount, category, date } - totalBudget - Monthly budget in Naira (e.g., ₦500,000) **Actions:** - addExpense(expense) - Add a new expense - removeExpense(id) - Remove an expense by ID - setBudget(amount) - Update the monthly budget
+Computed:** - getTotalSpent() - Calculate total amount spent - getRemainingBudget() - Calculate remaining budget **Bonus:** Add persist middleware to save expenses to localStorage.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<img width="1920" height="1231" alt="Screenshot 2026-01-21 at 13-01-42 expense_tracker" src="https://github.com/user-attachments/assets/ae15792e-eadb-413c-abc2-578ef74d159b" />
