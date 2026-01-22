@@ -1,16 +1,12 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Exercise 2: Redux Toolkit Slice (Intermediate)
 
-Currently, two official plugins are available:
+Convert the expense tracker to Redux Toolkit:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Create an `expenseSlice` with the same state and reducers
+2. Configure the store
+3. Create selectors for `selectTotalSpent` and `selectRemainingBudget`
+4. Build a simple UI that displays expenses and allows adding new ones
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<img width="1920" height="1099" alt="Screenshot 2026-01-22 at 10-21-41 redux" src="https://github.com/user-attachments/assets/d741ab74-d2a7-4b51-bdf2-55512f11dd76" />
